@@ -2,7 +2,7 @@ local player = game.Players.LocalPlayer
     local spins = game.Players.LocalPlayer:WaitForChild("statz"):WaitForChild("spins").Value
  
 local queueteleport = queue_on_teleport or (syn and syn.queue_on_teleport)
- queueteleport("loadstring(game:HttpGet('pastebin.com/raw/gLNwkjy3'))()")
+ queueteleport("loadstring(game:HttpGet('raw.githubusercontent.com/oa1063/gggoasss/refs/heads/main/da'))()")
 local TS = game:GetService("TeleportService")
 local plr = game.Players.LocalPlayer
 local pId = game.PlaceId
