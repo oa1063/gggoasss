@@ -1,5 +1,15 @@
+local player = game.Players.LocalPlayer
+    local spins = game.Players.LocalPlayer:WaitForChild("statz"):WaitForChild("spins").Value
+ 
 local queueteleport = queue_on_teleport or (syn and syn.queue_on_teleport)
  queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/oa1063/gggoasss/refs/heads/main/da'))()")
+local TS = game:GetService("TeleportService")
+local plr = game.Players.LocalPlayer
+local pId = game.PlaceId
+plr.startevent:FireServer("band", "\128")
+
 for i = 1,10 do
- print("1234")
+  plr:WaitForChild("startevent"):FireServer("maxlvlpres")
+  plr:WaitForChild("startevent"):FireServer("maxlvlpres2")
 end
+TS:Teleport(pId, plr)
